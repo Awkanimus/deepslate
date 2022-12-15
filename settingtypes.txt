@@ -1,0 +1,26 @@
+# The toughness level of deepslate-related blocks, for survival difficulty
+deepslate.level (Toughness level) int 0 0 32767
+
+# Deepslate will only generate naturally if this is enabled.
+deepslate.generate (Generate deepslate) bool true
+
+# The Y coordinate below which stone starts transitioning to deepslate.
+# Put this below the fill top to disable the transition area.
+deepslate.transition_top (Transition top) int -768 -32768 32768
+
+# The Y coordinate below which all stone is replaced with deepslate.
+deepslate.fill_top (Fill top) int -1024 -32768 32768
+
+# The Y coordinate below which no stone is replaced with deepslate.
+deepslate.fill_bottom (Fill bottom) int -32768 -32768 32768
+
+# If this is enabled, items will have names consistent with MineClone instead of Minetest Game.
+deepslate.use_mcl_names (Use MineClone naming scheme) bool false
+
+# If this is enabled, items will have crafting recipes consistent with MineClone instead of Minetest Game.
+deepslate.use_mcl_recipes (Use MineClone crafting recipes) bool false
+
+[Advanced]
+
+# If this is enabled, deepslate conversion during world generation will be logged to the console.
+deepslate.log_mapgen (Log world generation) bool false
